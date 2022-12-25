@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "bin-packing-simulator"
+version = "0.1.0"
+description = ""
+authors = ["OnumaKenya <kenyaonuma@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.2"
+numpy = "^1.24.0"
+streamlit = "^1.16.0"
+mip = "^1.14.2"
+streamlit-aggrid = "^0.3.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
